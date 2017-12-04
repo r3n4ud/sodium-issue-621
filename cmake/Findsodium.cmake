@@ -71,7 +71,7 @@ if (UNIX)
         set(XPREFIX sodium_PKG_STATIC)
     else()
         if (sodium_PKG_LIBRARIES STREQUAL "")
-            set(sodium_PKG_IBRARIES sodium)
+            set(sodium_PKG_LIBRARIES sodium)
         endif()
 
         set(XPREFIX sodium_PKG)
